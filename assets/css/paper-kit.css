@@ -1487,6 +1487,15 @@ select.selectpicker {
   padding: 4px;
   width: 16em;
 }
+@media (max-width: 600px) {
+  .video-text h3 {
+    font-size:15px;
+  }
+  .video-text h2 {
+    font-size:18px;
+    font-weight:500;
+  }
+}
 
 @media (min-width: 768px) {
   .bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs {
