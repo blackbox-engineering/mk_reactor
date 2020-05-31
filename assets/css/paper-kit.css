@@ -24,6 +24,15 @@
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
+#myVideo {
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  width: auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
 
 .bootstrap-switch {
   display: inline-block;
